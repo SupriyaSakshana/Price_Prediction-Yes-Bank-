@@ -1,0 +1,10 @@
+# Import Libraries
+import numpy as np                                                           #numerical computations
+import pandas as pd 
+
+dataset = pd.read_csv('/content/data_YesBank_StockPrices.csv')
+
+dataset.head()
+  
+# Dataset Rows & Columns count
+dataset.shape
